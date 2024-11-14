@@ -24,7 +24,7 @@ RUN if [ -n "$PIP_OTHER" ]; then pip install $PIP_OTHER; fi
 
 # Project modules
 ARG PIP_PROJECT=""
-RUN if [ -n "$PIP_PROJECT" ]; then pip install $PIP_OTHER; fi
+RUN if [ -n "$PIP_PROJECT" ]; then pip install $PIP_PROJECT; fi
 
 # Docker user
 ARG DOCKER_USER
